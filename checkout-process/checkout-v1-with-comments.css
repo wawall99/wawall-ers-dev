@@ -1,0 +1,175 @@
+
+/* Order Selector Section */
+span#order_selector_container {
+    border-radius: 6px 6px 0px 0px;
+}
+
+div#order_header_container + div {
+    border-radius: 0px 0px 6px 6px;
+}
+/* Fix Checkout Progress Indicator Positioning */
+.step_row {
+    float: none !important;
+    display: inline-block;
+    text-align: center;
+}
+.step_row_selected {
+    text-decoration: underline;
+    font-weight: bold;
+}
+.step_row a:visited {
+    color: #000000;
+}
+/* End Order Selector Section */
+/* Start All Pages of Checkout Styling */
+/* Expand Bootstrap Container to 90% on Checkout */
+@media screen and (min-width: 768px) {
+    .ers_page_cart .store .container, 
+    body[class^=ers_page_checkout] .store .container, 
+    .ers_page_pay .store .container {
+        width: 90%;
+        max-width: 1800px;
+    }
+}
+
+@media screen and (max-width: 992px) {
+    .ers_page_cart .store .container .col-md-6, 
+    body[class^=ers_page_checkout] .store .container .col-md-6, 
+    .ers_page_pay .store .container .col-md-6 {
+        padding: 0;
+    }
+}
+/* Color Container White (If there was a background image present) */
+
+.ers_page_cart .store .col-xs-12, 
+[class^=ers_page_checkout] .store .col-xs-12, 
+.ers_page_pay .store .col-xs-12, 
+.ers_page_thankyou .store .col-xs-12 {
+    background-color: white; /*
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    background-clip: border-box; */
+}
+
+.ers_page_cart [id*=bx], .ers_page_pay [id*=bx], .ers_page_thankyou .store .table {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+    margin: 10px 0px;
+}
+.checkout-text-insert {
+    margin-top: 20px;
+}
+
+#store_form button,
+#store_form input[type="button"],
+#store_form input[type="submit"] {
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 5px #707070;
+    background-color: dodgerblue;
+}
+#store_form button:hover,
+#store_form input[type="button"]:hover,
+#store_form input[type="submit"]:hover {
+    color: white;
+    text-decoration: none;
+    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1));
+}
+
+#store_form button,
+#store_form input[type="button"],
+#store_form input[type="submit"] {
+    width: 100%;
+}
+/* End All Pages of Checkout Styling */
+
+/* Start /Cart/ Page Changes */
+#ers_translate_checkout {
+    background-color: blue !important; /* Replace Color with Merge Field after Development */
+}
+
+.ers_page_cart td[autocolor="main"] {
+    background-color: blue !important;
+}
+
+.cart_item_img {
+    border: none !important;
+    border-right: solid 1px #dddddd !important;
+}
+        
+table[id*=bx] tr:first-of-type .cart_item_details {
+    border-top: none !important;
+}
+        
+table[id*=bx] .cart_item_details:first-of-type {
+    border-left: none !important;
+}
+        
+table[id*=bx] .cart_item_details:last-of-type {
+    border-right: none !important;
+}
+
+.cart_item_name, .cart_item_img {
+    border: none !important;
+}
+    
+@media (min-width: 600px) {
+    .cart_item_name {
+        font-size: 16px !important;
+    }
+}
+
+.ers_page_cart .col-sm-3 {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+@media (min-width: 768px) {
+    .ers_page_cart .col-sm-3 {
+        width: calc(25% - 10px);
+        margin: 5px;
+    }
+}
+
+/* Start Checkout Page Changes */
+
+[id^=formsec] {
+    border-radius: 10px;
+    overflow: hidden;
+    padding-right: 0;
+    padding-left: 0;
+}
+
+[id^=formsec] td {
+    border: none !important;
+}
+
+#store_form {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#store_form textarea {
+    width: 95% !important;
+}
+
+#store_form input[type="text"], 
+#store_form select {
+    width: 95%;
+    max-width: none !important;
+    height: 45px;
+    border: 1.5px solid #767676;
+    border-radius: 5px;
+    transition: .3s;
+}
+
+#store_form input[type="text"]:focus, 
+#store_form select:focus {
+    border-color: dodgerblue;
+    box-shadow:0 0 3px 0 dodgerBlue;
+}
+
