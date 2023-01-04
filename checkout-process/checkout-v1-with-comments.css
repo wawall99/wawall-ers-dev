@@ -60,7 +60,7 @@ div#order_header_container + div {
 .checkout-text-insert {
     margin-top: 20px;
 }
-
+/*
 #store_form button,
 #store_form input[type="button"],
 #store_form input[type="submit"] {
@@ -71,6 +71,7 @@ div#order_header_container + div {
     box-shadow: 0 0 5px #707070;
     background-color: dodgerblue;
 }
+
 #store_form button:hover,
 #store_form input[type="button"]:hover,
 #store_form input[type="submit"]:hover {
@@ -78,7 +79,7 @@ div#order_header_container + div {
     text-decoration: none;
     background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1));
 }
-
+*/
 #store_form button,
 #store_form input[type="button"],
 #store_form input[type="submit"] {
@@ -90,11 +91,11 @@ div#order_header_container + div {
 #ers_translate_checkout {
     background-color: blue !important; /* Replace Color with Merge Field after Development */
 }
-
+/*
 .ers_page_cart td[autocolor="main"] {
     background-color: blue !important;
 }
-
+*/
 .cart_item_img {
     border: none !important;
     border-right: solid 1px #dddddd !important;
