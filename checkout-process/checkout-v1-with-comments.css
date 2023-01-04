@@ -60,22 +60,22 @@ div#order_header_container + div {
 .checkout-text-insert {
     margin-top: 20px;
 }
-/*
+
 #store_form button,
 #store_form input[type="button"],
 #store_form input[type="submit"] {
-    color: white;
+/*    color: white;
+    background-color: dodgerblue; */
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
     box-shadow: 0 0 5px #707070;
-    background-color: dodgerblue;
 }
 
 #store_form button:hover,
 #store_form input[type="button"]:hover,
 #store_form input[type="submit"]:hover {
-    color: white;
+/*    color: white; */
     text-decoration: none;
     background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1));
 }
@@ -88,11 +88,10 @@ div#order_header_container + div {
 /* End All Pages of Checkout Styling */
 
 /* Start /Cart/ Page Changes */
-/*
 #ers_translate_checkout {
-    background-color: blue !important; 
+/*    background-color: ; */
 }
-
+/* Probably Don't Need Due to existing 'reset'
 .ers_page_cart td[autocolor="main"] {
     background-color: blue !important;
 }
