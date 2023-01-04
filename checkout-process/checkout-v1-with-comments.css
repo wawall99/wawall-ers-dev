@@ -87,7 +87,16 @@ div#order_header_container + div {
 /* Start /Cart/ Page Changes */
 #ers_translate_checkout {
 /*    background-color: ; */
+    width: 300px;
+    padding: 20px 0;
 }
+@media screen and (max-width: 767px) {
+    #ers_translate_checkout {
+        width: 80%;
+        margin: auto;
+    }
+}
+
 /* Probably Don't Need Due to existing 'reset'
 .ers_page_cart td[autocolor="main"] {
     background-color: blue !important;
