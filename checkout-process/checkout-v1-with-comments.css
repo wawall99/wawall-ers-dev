@@ -165,6 +165,10 @@ table[id*=bx] .cart_item_details:last-of-type {
     border: none !important;
 }
 
+[id^=formsec] [id^=other] {
+    padding-top: 10px;
+}
+
 #store_form {
     display: flex;
     flex-wrap: wrap;
