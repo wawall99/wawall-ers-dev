@@ -166,7 +166,8 @@ table[id*=bx] .cart_item_details:last-of-type {
 }
 
 [id^=formsec] [id^=other] {
-    padding-top: 10px;
+    margin-top: 10px;
+    margin-left: auto;
 }
 
 #store_form {
