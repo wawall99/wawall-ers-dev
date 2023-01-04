@@ -88,10 +88,11 @@ div#order_header_container + div {
 /* End All Pages of Checkout Styling */
 
 /* Start /Cart/ Page Changes */
-#ers_translate_checkout {
-    background-color: blue !important; /* Replace Color with Merge Field after Development */
-}
 /*
+#ers_translate_checkout {
+    background-color: blue !important; 
+}
+
 .ers_page_cart td[autocolor="main"] {
     background-color: blue !important;
 }
