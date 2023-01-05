@@ -166,7 +166,7 @@ table[id*=bx] .cart_item_details:last-of-type {
 }
 
 [id^=formsec] [id^=other] {
-    margin-top: 10px;
+    margin-top: 16px;
     margin-left: auto;
 }
 
@@ -193,5 +193,15 @@ table[id*=bx] .cart_item_details:last-of-type {
 #store_form select:focus {
     border-color: dodgerblue;
     box-shadow:0 0 3px 0 dodgerBlue inset;
+}
+
+/* Start AutoComplete Styling */
+.pac-container {
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.pac-icon {
+    display: none;
 }
 
