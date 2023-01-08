@@ -109,7 +109,7 @@ div#order_header_container + div {
 }
 
 .ers_page_cart td[autocolor="main"] {
-    font-size: 1.2rem !important;
+    font-size: .8rem !important;
     border-bottom-right-radius: 10px;
 }
 
