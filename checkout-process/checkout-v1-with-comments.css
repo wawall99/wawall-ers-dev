@@ -60,12 +60,10 @@ div#order_header_container + div {
 .checkout-text-insert {
     margin-top: 20px;
 }
-/* Use Buttons Internal 
+
 #store_form button,
 #store_form input[type="button"],
 #store_form input[type="submit"] {
-    color: white;
-    background-color: dodgerblue; 
     border: none;
     padding: 10px 20px;
     border-radius: 5px;
@@ -75,9 +73,9 @@ div#order_header_container + div {
 #store_form input[type="button"]:hover,
 #store_form input[type="submit"]:hover {
     text-decoration: none;
-    background-image: linear-gradient(rgba(0,0,0,.1), rgba(0,0,0,.1));
+
 }
-*/
+
 
 #store_form button,
 #store_form input[type="button"],
