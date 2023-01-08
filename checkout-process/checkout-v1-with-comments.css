@@ -108,11 +108,11 @@ div#order_header_container + div {
     }
 }
 
-/* Probably Don't Need Due to existing 'reset'
 .ers_page_cart td[autocolor="main"] {
-    background-color: blue !important;
+    font-size: 1.2rem !important;
+    border-bottom-right-radius: 10px;
 }
-*/
+
 .cart_item_img {
     border: none !important;
     border-right: solid 1px #dddddd !important;
