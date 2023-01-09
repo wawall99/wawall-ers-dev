@@ -102,12 +102,12 @@ div#order_header_container + div {
 }
 */
 /* Change Size of Text on Cart Items */
-@media (min-width: 500px) {
+@media (min-width: 400px) {
     .cart_table_container .cart_item_name {
     font-weight: 600;
     }
     .cart_table_container .cart_item_name, .cart_table_container .cart_item_details, .cart_table_container table[width*='100'] td:nth-child(2) font {
-    font-size: 1.2rem !important;
+    font-size: 1rem !important;
     line-height: 1.1em !important;
     }
 } 
