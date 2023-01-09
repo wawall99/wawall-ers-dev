@@ -101,6 +101,17 @@ div#order_header_container + div {
     vertical-align: middle;
 }
 */
+/* Change Size of Text on Cart Items */
+@media (min-width: 500px) {
+    .cart_table_container .cart_item_name {
+    font-weight: 600;
+    }
+    .cart_table_container .cart_item_name, .cart_table_container .cart_item_details, .cart_table_container table[width*='100'] td:nth-child(2) font {
+    font-size: 1.2rem !important;
+    line-height: 1.1em !important;
+    }
+} 
+
 @media screen and (max-width: 767px) {
     #ers_translate_checkout {
         width: 80%;
